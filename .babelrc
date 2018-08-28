@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["env", {
+            "targets": {
+                "node": "current"
+            }
+        }],
+        ["stage-2"]
+    ],
+    "env": {
+        "development": {
+            "sourceMaps": "inline",
+            "plugins": ["source-map-support"]
+        }
+    }
+}
