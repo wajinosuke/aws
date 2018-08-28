@@ -4,13 +4,18 @@
 # インストール
 ```
 git clone https://github.com/wajinosuke/ec2Instances.git
-npm init
+npm install
 ```
 
 # ビルド
 ```
-webpack
+npm run build
 ```
+
+# 準備
+awsのcredntialを用意
+
+参考：https://aws.amazon.com/jp/sdk-for-node-js/
 
 # 実行
 
